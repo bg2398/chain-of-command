@@ -8,7 +8,7 @@ test('creates an employee card', () => {
     expect(employee,email).toEqual(expect.any(String));
 });
 
-
+//placeholder names as well as adding employees section
 test('gets employee name', () => {
     const employee = new Employee('Carmen', 45, 'carmen.delagado@gmail.com');
    
